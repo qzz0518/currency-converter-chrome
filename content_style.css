@@ -1,0 +1,18 @@
+.currency-converter-wrapper {
+    position: relative;
+    display: inline-block;
+}
+.currency-converter-button {
+    position: absolute;
+    background-image: url('https://via.placeholder.com/20x20/0074d9/ffffff?text=%24');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 12px 12px;
+    width: 20px;
+    height: 20px;
+    border: none;
+    border-radius: 50%;
+    padding: 0;
+    cursor: pointer;
+    z-index: 9999;
+}

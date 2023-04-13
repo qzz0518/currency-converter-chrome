@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        body {
+            width: 300px;
+            height: 300px;
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background-color: #e0f2ff;
+            padding: 20px;
+            box-sizing: border-box;
+        }
+        h2 {
+            color: #0074d9;
+        }
+        #results {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            align-items: center;
+            justify-content: center;
+            color: #333;
+        }
+        .conversion {
+            display: flex;
+            gap: 5px;
+        }
+        .conversion span {
+            font-weight: bold;
+            color: #0074d9;
+        }
+        #input-container {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+        #input-amount {
+            width: 100%;
+            padding: 5px;
+            box-sizing: border-box;
+        }
+        #convert-button {
+            padding: 5px 10px;
+            background-color: #0074d9;
+            color: #fff;
+            border: none;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+        #convert-button:hover {
+            background-color: #0051a8;
+        }
+    </style>
+</head>
+<body>
+<h2>Conversion</h2>
+<div id="input-container">
+    <input type="text" id="input-amount" placeholder="Enter amount" />
+    <button id="convert-button">Convert</button>
+</div>
+<div id="results"></div>
+<script src="popup.js"></script>
+</body>
+</html>

@@ -1,0 +1,18 @@
+{
+  "manifest_version": 2,
+  "name": "Currency Converter",
+  "version": "1.0",
+  "description": "Convert currency by selecting text",
+  "permissions": ["activeTab", "storage", "https://api.exchangerate-api.com/"],
+  "browser_action": {
+    "default_icon": "img.png",
+    "default_popup": "popup.html"
+  },
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content_script.js"],
+      "css": ["content_style.css"]
+    }
+  ]
+}
