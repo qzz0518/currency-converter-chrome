@@ -140,7 +140,7 @@ function showPopup(selectedAmount, x, y) {
         <div><span>${selectedAmount} USD</span> to JPY: ${usdToJpy}</div>
         <div><span>${selectedAmount} USD</span> to CNY: ${usdToCny}</div>
         <div><span>${selectedAmount} JPY</span> to USD: ${jpyToUsd}</div>
-        <div><span>${selectedAmount} JPY</span> to CNY: ${jpyToCny}</div>
+        <div style="color: red"><span>${selectedAmount} JPY</span> to CNY: ${jpyToCny}</div>
         <div><span>${selectedAmount} CNY</span> to USD: ${cnyToUsd}</div>
         <div><span>${selectedAmount} CNY</span> to JPY: ${cnyToJpy}</div>
       `;
